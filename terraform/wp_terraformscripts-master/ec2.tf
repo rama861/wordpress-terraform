@@ -1,5 +1,5 @@
 #Creating EC2 instance in Public subnet 
-resource "aws_instance" "wordpress8_ec2" {
+resource "aws_instance" "terraform" {
   ami                         = "ami-0cf7b2f456cd5efd4"
   instance_type               = "t2.micro"
   key_name                    = "docker-1"
