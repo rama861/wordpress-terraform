@@ -1,6 +1,6 @@
 #Creating EC2 instance in Public subnet 
 resource "aws_instance" "terraform" {
-  ami                         = "ami-0cf7b2f456cd5efd4"
+  ami                         = "ami-0440d3b780d96b29d"
   instance_type               = "t2.micro"
   key_name                    = "docker-1"
   vpc_security_group_ids      = [aws_security_group.demosg.id]
